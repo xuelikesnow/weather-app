@@ -69,16 +69,16 @@ img.weather-icon {
 	height: 50%;
 }
 
-img.ten-day-forecast {
+img.ten-day-forecast-graph {
 	width: 293px;
 	height: 157px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-img.hourly-day-forecast {
-	width: 294px;
-	height: 102px;
+img.hourly-forecast-graph {
+	width: 264px;
+	height: 91px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -130,7 +130,13 @@ img.hourly-day-forecast {
 	margin-left: 7px;
 }
 
-.flex-container {
+.flex-container-hourly {
+	display: flex;
+	align-items: center;
+	margin: 0em;
+}
+
+.flex-container-weekly {
 	resize: horizontal;
 	overflow: hidden;
 	display: flex;
@@ -159,7 +165,7 @@ img.hourly-day-forecast {
 
 svg.navbar-icon {
 	fill: white;
-	margin: 10px 30px;
+	margin: -5px 30px;
 }
 
 svg.edit-icon {
@@ -169,4 +175,13 @@ svg.edit-icon {
 svg.drop-down-icon {
 	fill: rgb(255, 255, 255, 0.7);
 	margin: 8px 0px 0px 10px;
+}
+
+svg.page-control {
+	fill: white;
+	margin: -10px;
+}
+
+svg.scroll-icon {
+	fill: white;
 }
