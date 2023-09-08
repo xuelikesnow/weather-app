@@ -1,0 +1,167 @@
+@font-face {
+	font-family: Poppins;
+	src: url(Assets/Poppins-Regular.ttf);
+}
+
+#page-container {
+	position: relative;
+	min-height: 100vh;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #09304fd8;
+	align-content: center;
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Poppins, Helvetica, sans-serif;
+	background-image: linear-gradient(to bottom right, #a6d8fd, #1a87df);
+}
+
+header {
+	color: white;
+	align-content: center;
+	text-align: center;
+	margin: 50px 0px 0px 0px;
+}
+
+h1#city {
+	padding: 0px;
+	font-size: 35px;
+}
+
+h1#temperature {
+	padding: 0px;
+	margin: 10px;
+	font-size: 35px;
+}
+
+h1#highlow {
+	padding: 0px;
+	margin-top: -15px;
+	font-size: 20px;
+}
+
+p {
+	padding: 6px 10px 0px;
+	margin: 0;
+	color: rgb(255, 255, 255, 0.8);
+}
+
+p.weekly-forecast-header {
+	padding: 6px 0px 0px 6px;
+	margin: 0;
+	color: rgb(255, 255, 255, 0.8);
+}
+
+img.weather-icon {
+	width: 50%;
+	height: 50%;
+}
+
+img.ten-day-forecast {
+	width: 293px;
+	height: 157px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.hourly-day-forecast {
+	width: 294px;
+	height: 102px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row {
+	align-content: center;
+}
+
+.hourly-forecast {
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	text-align: left;
+	width: 80vw;
+	height: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.weekly-forecast {
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	text-align: left;
+	width: 80vw;
+	height: 190px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+.uv-index {
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	text-align: left;
+	width: 50%;
+	height: 130px;
+	margin-top: 15px;
+	margin-right: 7px;
+}
+
+.feels-like {
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	text-align: left;
+	width: 50%;
+	height: 130px;
+	margin-top: 15px;
+	margin-left: 7px;
+}
+
+.flex-container {
+	resize: horizontal;
+	overflow: hidden;
+	display: flex;
+	margin: 0em;
+}
+
+.widget-flex-container {
+	width: 80vw;
+	overflow: hidden;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divider {
+	height: 90px;
+	margin: 0px 10px;
+	border-top: solid;
+	border-width: 1px;
+	border-top-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	color: white;
+}
+
+svg.navbar-icon {
+	fill: white;
+	margin: 10px 30px;
+}
+
+svg.drop-down-icon {
+	fill: rgb(255, 255, 255, 0.7);
+	margin: 8px 0px 0px 10px;
+}
