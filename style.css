@@ -83,8 +83,9 @@ img.hourly-day-forecast {
 	margin-right: auto;
 }
 
-.row {
-	align-content: center;
+.edit-bar {
+	align-content: right;
+	margin-left: 85vw;
 }
 
 .hourly-forecast {
@@ -95,7 +96,7 @@ img.hourly-day-forecast {
 	height: 130px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 30px;
+	margin-top: 5px;
 }
 
 .weekly-forecast {
@@ -159,6 +160,10 @@ img.hourly-day-forecast {
 svg.navbar-icon {
 	fill: white;
 	margin: 10px 30px;
+}
+
+svg.edit-icon {
+	fill: white;
 }
 
 svg.drop-down-icon {
